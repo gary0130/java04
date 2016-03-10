@@ -8,6 +8,8 @@
 
 建議裝AIDE http://www.android-ide.com/
 
+手機使用方法http://gary0130.azurewebsites.net/aide.html
+
 電腦可用Eclipse運行
 
-20160309-
+20160310
