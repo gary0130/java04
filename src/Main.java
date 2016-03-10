@@ -3,18 +3,29 @@ import java.util.*;
 
 public class Main
 {
+	public static void str()
+	{
+		//這裡是可以安全修改的區域
+		str1="蒹葭蒼蒼，白露為霜，所謂伊人，在水一方，溯洄從之，道阻且長，溯游從之，宛在水中央，蒹葭萋萋，白露未晞，所謂伊人，在水之湄，溯洄從之，道阻且躋，溯游從之，宛在水中坻，蒹葭采采，白露未已，所謂伊人，在水之涘，溯洄從之，道阻且右，溯游從之，宛在水中沚";
+		str2="蓼蓼者莪，匪莪伊蒿，哀哀父母，生我劬勞，蓼蓼者莪，匪莪伊蔚，哀哀父母，生我勞瘁，缾之罊矣，維罍之恥，鮮民之生，不如死之久矣，無父何怙，無母何恃，出則銜恤，入則靡至，父兮生我，母兮鞠我，拊我畜我，長我育我，顧我復我，出入腹我，欲報之德，昊天罔極，南山烈烈，飄風發發，民莫不穀，我獨何害，南山律律，飄風弗弗，民莫不穀，我獨不卒，";
+	}
+	
+
+	
+	
 	//輸入
 	static Scanner Scan =new Scanner(System.in);
 	static String arwords[] =new String[30];
-	static String words="";
+	static String words="",str1,str2;
 	static int speed,co,debug;
 	public static void main(String[] args) throws InterruptedException 
 	{
 		//這裡是主程式
 		welcome();//歡迎詞
+		str();
 		System.out.println("字詞已經加入！");
 		//不要換行，以"，"隔開
-		words = "蒹葭蒼蒼，白露為霜，所謂伊人，在水一方，溯洄從之，道阻且長，溯游從之，宛在水中央，蒹葭萋萋，白露未晞，所謂伊人，在水之湄，溯洄從之，道阻且躋，溯游從之，宛在水中坻，蒹葭采采，白露未已，所謂伊人，在水之涘，溯洄從之，道阻且右，溯游從之，宛在水中沚";
+		words = str1;
 		System.out.println("標題：蒹葭");
 		prepare();//將字詞存入陣列
 		
