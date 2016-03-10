@@ -108,6 +108,12 @@ public class Main
 			System.out.println("請輸入速度(單位為毫秒)");
 			speed = 1000;
 			speed = Scan.nextInt();//輸入速度
+			if(speed==132)
+			{
+				words=str2;
+				prepare();
+				System.out.println("調適");
+			}
 		}
 		catch (Exception e)
 		{
